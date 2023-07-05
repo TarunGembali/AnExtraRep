@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form action="./Login_Details.php" method="POST">
+        <div class="container">
+            <label for="name"> Name :</label>
+            <input name="name" id="name" type="text">
+            <br>
+            <label for="age"> Age : </label>
+            <input name="age" id="age" type="number">
+            <br>
+            <label for="weight">Weight:</label>
+            <input name="weight" id="weight" type="number">
+            <br>
+            <label for="mail">Email :</label>
+            <input name="mail" id="mail" type="email">
+            <br>
+            <label for="image">Upload Photo: </label>
+            <input name="image" id="image" type="file">
+            <br>
+            <button name="submit" class="btn login_btn" id="submit">Submit</button>
+            <br>
+            <a href="getInfo.html" class="link">Get Health Info</a>
+            <br>
+        </div>
+    </form>
+</body>
+</html>
